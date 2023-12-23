@@ -56,7 +56,7 @@ class AgeRestrictionValidatorTest {
     @Test
     void test_extremeLowAge() {
         AgeRestrictionValidator validator = new AgeRestrictionValidator();
-        assertFalse(validator.isEligible(2));
+        assertFalse(validator.isEligible(0));
 
     }
 

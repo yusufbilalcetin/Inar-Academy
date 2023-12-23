@@ -8,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 
 class LoginValidatorTest {
+
     @Test
     void testValidUsername() {
         LoginValidator validator = new LoginValidator();
