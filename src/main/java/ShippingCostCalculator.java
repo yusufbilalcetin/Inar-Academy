@@ -19,9 +19,9 @@ public class ShippingCostCalculator {
             deliverySpeed) {
         double cost = 0.0;
 // Determine the base cost by destination
-        if ("Local".equalsIgnoreCase(destination) && weight > 0.0) {
+        if ("Local".equalsIgnoreCase(destination) ) {
             cost += weight * LOCAL_RATE;
-        } else if ("International".equalsIgnoreCase(destination) && weight > 0.0) {
+        } else if ("International".equalsIgnoreCase(destination) ) {
             cost += weight * INTERNATIONAL_RATE;
         }
 // Apply the multiplier for delivery speed
